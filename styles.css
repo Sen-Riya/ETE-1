@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem;
+}
+
+#filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#filters input,
+#filters select {
+  padding: 0.5rem;
+}
+
+#courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#pagination button {
+  margin: 0 0.5rem;
+}
+
+aside {
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#signup-form input,
+#signup-form button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+      flex-direction: row;
+  }
+
+  main {
+      flex: 3;
+  }
+
+  aside {
+      flex: 1;
+  }
+}

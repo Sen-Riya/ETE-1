@@ -1,0 +1,62 @@
+[
+  {
+    "courseId": "C101",
+    "title": "Introduction to Web Development",
+    "instructor": "John Doe",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "category": "Web Development",
+    "price": "Rs. 299",
+    "enrolled": "2500"
+  },
+  {
+    "courseId": "C102",
+    "title": "Advanced JavaScript Techniques",
+    "instructor": "Cynthia T",
+    "duration": "15 hours",
+    "rating": 4.8,
+    "category": "Programming",
+    "price": "Rs. 449",
+    "enrolled": "1800"
+  },
+  {
+    "courseId": "C103",
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Alex Johnson",
+    "duration": "12 hours",
+    "rating": 4.2,
+    "category": "Design",
+    "price": "Rs. 549",
+    "enrolled": "3000"
+  },
+  {
+    "courseId": "C104",
+    "title": "Python for Data Science",
+    "instructor": "Emily Brown",
+    "duration": "20 hours",
+    "rating": 4.7,
+    "category": "Data Science",
+    "price": "Rs. 599",
+    "enrolled": "2200"
+  },
+  {
+    "courseId": "C105",
+    "title": "Mobile App Development with React Native",
+    "instructor": "Michael Lee",
+    "duration": "18 hours",
+    "rating": 4.4,
+    "category": "Mobile Development",
+    "price": "Rs.499",
+    "enrolled": "1500"
+  },
+  {
+    "courseId": "C106",
+    "title": "Cloud Computing Essentials",
+    "instructor": "Sarah Wilson",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "category": "Cloud Computing",
+    "price": "Rs.399",
+    "enrolled": "2800"
+  }
+]
